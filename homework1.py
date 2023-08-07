@@ -1,12 +1,12 @@
-ss="@#"
-ws="!#"
+ss="#*"
+ws="*#"
 def shatrang(row , col):
     for i in range(row):
            for j in range(col):
                if i %2==0:
-                    print(ss , end="")
+                    print(ss , end=" ")
                else:
-                    print(ws ,end="")  
+                    print(ws ,end=" ")  
            print()                
 
 print("welcome ")
@@ -16,4 +16,4 @@ print()
 
 shatrang(rows, columns)
 
-    
+        
